@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* removing the dots from li */
+ul {
+  list-style-type: none;
+}
+
+.header {
+  list-style-type: none;
+  padding: 18px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(83, 83, 83);
+  color: rgb(224, 13, 13);
+}
+
+.abewdsportfolio {
+  font-size: px;
+  display: flex;
+  margin: 10px;
+  background-color: rgb(63, 214, 202);
+  color: rgb(83, 83, 83);
+}
+
+nav {
+  display: flex;
+  font-size: 23px;
+  text-decoration: underline rgb(63, 214, 202);
+  color: rgb(63, 214, 202);
+  margin: 8px;
+}
+
+.image {
+  font-size: 55px;
+  background: url(./Assets/Images/gtrbannerphoto.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 5px;
+}
+
+.imagetext1 {
+  color: rgb(63, 214, 202);
+  background-color: rgb(41, 39, 39);
+}
+
+.aboutme {
+  text-align: right;
+  display: flex;
+  font-size: 60px;
+  justify-content: flex-end;
+  float: left;
+  list-style-type: none;
+  margin: 50px;
+}
+
+.aboutmeparagraph {
+  text-align: left;
+  display: flex;
+  border-left: 5px solid red;
+  font-size: 50px;
+  margin: 30px;
+  padding: 20px;
+}
+.aboutmeparagraph1 {
+  width: 100%;
+}
+
+.work {
+  display: flex;
+  font-size: 60px;
+  justify-content: flex-start;
+  float: left;
+  list-style-type: none;
+  margin: 50px;
+}
+
+.imagework1 {
+  border-left: 5px solid red;
+  margin: 30px;
+  padding: 200px;
+  font-size: 50px;
+  background: url(./Assets/Images/253775292_268011578593016_5556998612225942579_n.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  color: red;
+  align-items: flex-end;
+}
+
+.imagework2 {
+  border-left: 5px solid red;
+  margin: 30px;
+  padding: 200px;
+  font-size: 50px;
+  background: url(./Assets/Images/-VugCYGw.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  color: red;
+  align-items: flex-end;
+}
+
+.test {
+  display: flex;
+}
