@@ -2,6 +2,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /* when you start use this so you can visualize 
+  all your elements */
+  /* border: 1px solid black; */
 }
 
 /* removing the dots from li */
@@ -11,44 +14,43 @@ ul {
 
 .header {
   list-style-type: none;
-  padding: 18px;
+  padding: 15px;
   font-family: "Times New Roman", Times, serif;
   background-color: rgb(83, 83, 83);
-  color: rgb(224, 13, 13);
 }
 
 .abewdsportfolio {
-  font-size: px;
+  font-size: 60px;
   display: flex;
-  margin: 10px;
+  margin: 0px;
   background-color: rgb(63, 214, 202);
   color: rgb(83, 83, 83);
 }
 
 nav {
   display: flex;
-  font-size: 23px;
+  font-size: 35px;
   text-decoration: underline rgb(63, 214, 202);
   color: rgb(63, 214, 202);
-  margin: 8px;
+  margin: 10px;
+  padding: 15px;
 }
 
 .image {
-  font-size: 55px;
-  background: url(./Assets/Images/gtrbannerphoto.avif);
+  font-size: 35px;
+  background: url(./Assets/Images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 500px;
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 5px;
 }
 
 .imagetext1 {
-  color: rgb(63, 214, 202);
-  background-color: rgb(41, 39, 39);
+  color: rgb(19, 4, 88);
+  background-color: rgb(94, 200, 219);
 }
 
 .aboutme {
@@ -69,51 +71,32 @@ nav {
   margin: 30px;
   padding: 20px;
 }
-.aboutmeparagraph1 {
-  width: 100%;
-}
 
 .work {
+  text-align: right;
   display: flex;
   font-size: 60px;
-  justify-content: flex-start;
+  justify-content: flex-end;
   float: left;
   list-style-type: none;
   margin: 50px;
 }
 
-.imagework1 {
+.workcontenttop {
+  border: 1px solid black;
+  display: block;
   border-left: 5px solid red;
-  margin: 30px;
-  padding: 200px;
-  font-size: 50px;
-  background: url(./Assets/Images/253775292_268011578593016_5556998612225942579_n.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 90px;
+  margin: 70px;
+  padding: 30px;
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  color: red;
-  align-items: flex-end;
 }
 
-.imagework2 {
+.workcontentblock1 {
+  border: 1px solid black;
+  display: block;
   border-left: 5px solid red;
-  margin: 30px;
-  padding: 200px;
-  font-size: 50px;
-  background: url(./Assets/Images/-VugCYGw.jpeg);
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  color: red;
-  align-items: flex-end;
-}
-
-.test {
-  display: flex;
+  margin: 70px;
+  padding: 30px;
 }
