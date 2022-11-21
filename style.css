@@ -7,9 +7,17 @@
   /* border: 1px solid black; */
 }
 
+
+  width: 100%;
+}
+
 /* removing the dots from li */
 ul {
   list-style-type: none;
+}
+
+.body {
+  width: 100%;
 }
 
 .header {
@@ -73,6 +81,7 @@ nav {
 }
 
 .work {
+  max-width: fit-content;
   text-align: right;
   display: flex;
   font-size: 60px;
