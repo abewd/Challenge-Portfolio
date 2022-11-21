@@ -82,6 +82,14 @@ nav {
   /* flex-direction: column; */
 }
 
+.images {
+  flex-wrap: wrap;
+  border-left: 5px solid red;
+  margin: 70px;
+  flex-direction: column;
+  display: flex;
+}
+
 .workcontenttop {
   border: 1px solid black;
   display: flex;
@@ -93,14 +101,36 @@ nav {
 
 .workcontentblock1 {
   border: 1px solid black;
-  display: flex;
-  background-size: cover;
+  flex-wrap: wrap;
+  display: inline-flex;
   margin: 70px;
   padding: 30px;
 }
 
-.images {
-  flex-wrap: wrap;
+.contactme {
+  text-align: right;
+  display: flex;
+  font-size: 60px;
+  justify-content: flex-end;
+  float: left;
+  list-style-type: none;
+  margin: 50px;
+}
+
+.contactme {
+  text-align: right;
+  display: flex;
+  font-size: 60px;
+  float: left;
+  list-style-type: none;
+  margin: 50px;
+}
+
+.contactmeparagraph {
+  text-align: left;
+  display: flex;
   border-left: 5px solid red;
-  margin: 70px;
+  font-size: 50px;
+  margin: 20px;
+  padding: 10px;
 }
