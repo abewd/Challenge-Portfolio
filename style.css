@@ -84,7 +84,7 @@ img {
   display: flex;
 }
 .workcontenttop {
-  display: flex;
+  display: block;
   background-size: cover;
   margin: 30px;
   padding: 30px;
@@ -159,8 +159,4 @@ h2 div {
 
 a span {
   background-color: green;
-}
-
-.bigimagetext {
-  justify-content: left;
 }
