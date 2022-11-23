@@ -140,13 +140,18 @@ img {
 
 .imagebottomright {
   border: solid 10px rgb(236, 14, 14);
+  height: 393.75px;
 }
 
 .textonimages {
+  position: relative;
+  bottom: 90px;
 }
 
-h2 span {
+h2 div {
   background-color: green;
+  width: 150px;
+  padding: 10px;
 }
 
 a span {
