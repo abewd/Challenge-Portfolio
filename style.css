@@ -3,21 +3,15 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
 
-  /* when you start use this so you can visualize
-  all your elements */
-  /* border: 1px solid black; */
-}
-/* removing the dots from li */
-ul {
-  list-style-type: none;
-}
 .body {
   width: 100%;
 }
 .header {
-  list-style-type: none;
-  padding: 15px;
+  font-size: 25px;
+  padding: 5px;
+  height: 40%;
   font-family: "Times New Roman", Times, serif;
   background-color: rgb(83, 83, 83);
 }
@@ -28,10 +22,11 @@ ul {
   color: rgb(83, 83, 83);
 }
 nav {
+  font-size: 25px;
   display: flex;
   text-decoration: underline rgb(63, 214, 202);
   color: rgb(63, 214, 202);
-  margin: 10px;
+  margin: 15px;
   padding: 15px;
 }
 img {
@@ -49,11 +44,13 @@ img {
   align-items: flex-end;
 }
 .imagetext1 {
-  font-size: 45px;
+  font-size: 30px;
   color: rgb(19, 4, 88);
   background-color: rgb(94, 200, 219);
+  padding: 15px;
 }
 .aboutme {
+  font-size: 35px;
   text-align: right;
   display: flex;
   justify-content: flex-end;
@@ -64,9 +61,13 @@ img {
 .aboutmeparagraph {
   text-align: left;
   display: flex;
-  border-left: 5px solid red;
+  border-left: 5px solid blue;
   margin: 50px;
-  padding: 20px;
+  padding: 10px;
+}
+
+.aboutmefontsize {
+  font-size: 30px;
 }
 .work {
   max-width: fit-content;
@@ -80,15 +81,13 @@ img {
 
 .images {
   flex-wrap: wrap;
-  border-left: 5px solid red;
+  border-left: 5px solid blue;
   display: flex;
 }
 .workcontenttop {
+  border: solid 10px blue;
   display: block;
-  background-size: cover;
-  margin: 30px;
-  padding: 30px;
-  width: 100%;
+  height: 393px;
 }
 .workcontentblock1 {
   flex-wrap: wrap;
@@ -105,6 +104,7 @@ img {
 }
 
 .contactme {
+  font-size: 30px;
   text-align: right;
   display: flex;
   justify-content: flex-end;
@@ -114,12 +114,17 @@ img {
 }
 
 .footer {
+  color: blue;
   justify-content: center;
   text-align: left;
   display: flex;
-  border-left: 5px solid red;
+  border-left: 5px solid blue;
   margin: 10px;
   padding: 5px;
+}
+
+.footercolors {
+  color: black;
 }
 
 .footerborder {
@@ -127,22 +132,22 @@ img {
 }
 
 .imagetopleft {
-  border: solid 10px rgb(236, 14, 14);
+  border: solid 10px blue;
   height: 393.75px;
 }
 
 .imagetopright {
-  border: solid 10px rgb(236, 14, 14);
+  border: solid 10px blue;
   height: 393.75px;
 }
 
 .imagebottomleft {
-  border: solid 10px rgb(236, 14, 14);
+  border: solid 10px blue;
   height: 393.75px;
 }
 
 .imagebottomright {
-  border: solid 10px rgb(236, 14, 14);
+  border: solid 10px blue;
   height: 393.75px;
 }
 
@@ -152,11 +157,18 @@ img {
 }
 
 h2 div {
-  background-color: green;
+  background-color: turquoise;
   width: 150px;
   padding: 10px;
 }
 
 a span {
-  background-color: green;
+  background-color: turquoise;
+}
+
+a {
+  color: blue;
+  font-size: 25px;
+  margin: 50px;
+  height: 100px;
 }
