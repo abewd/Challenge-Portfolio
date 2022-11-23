@@ -25,7 +25,7 @@ nav {
   font-size: 25px;
   display: flex;
   text-decoration: underline rgb(63, 214, 202);
-  color: rgb(63, 214, 202);
+  color: rgb(10, 27, 25);
   margin: 15px;
   padding: 15px;
 }
@@ -62,7 +62,7 @@ img {
   text-align: left;
   display: flex;
   border-left: 5px solid blue;
-  margin: 50px;
+  margin: 40px;
   padding: 10px;
 }
 
@@ -87,7 +87,9 @@ img {
 .workcontenttop {
   border: solid 10px blue;
   display: block;
-  height: 393px;
+  height: 450px;
+  margin: 45px;
+  width: 90%;
 }
 .workcontentblock1 {
   flex-wrap: wrap;
@@ -110,7 +112,7 @@ img {
   justify-content: flex-end;
   float: left;
   list-style-type: none;
-  margin: 40px;
+  margin: 42px;
 }
 
 .footer {
@@ -121,6 +123,7 @@ img {
   border-left: 5px solid blue;
   margin: 10px;
   padding: 5px;
+  height: 120px;
 }
 
 .footercolors {
@@ -157,8 +160,9 @@ img {
 }
 
 h2 div {
+  color: blue;
   background-color: turquoise;
-  width: 150px;
+  width: 250px;
   padding: 10px;
 }
 
@@ -169,6 +173,6 @@ a span {
 a {
   color: blue;
   font-size: 25px;
-  margin: 50px;
+  margin: 20px;
   height: 100px;
 }
