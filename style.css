@@ -128,14 +128,17 @@ img {
 
 .imagetopleft {
   border: solid 10px rgb(236, 14, 14);
+  height: 393.75px;
 }
 
 .imagetopright {
   border: solid 10px rgb(236, 14, 14);
+  height: 393.75px;
 }
 
 .imagebottomleft {
   border: solid 10px rgb(236, 14, 14);
+  height: 393.75px;
 }
 
 .imagebottomright {
@@ -156,4 +159,8 @@ h2 div {
 
 a span {
   background-color: green;
+}
+
+.bigimagetext {
+  justify-content: left;
 }
