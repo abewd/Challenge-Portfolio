@@ -2,7 +2,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-size: 20px;
   list-style-type: none;
 
   /* when you start use this so you can visualize
@@ -127,5 +126,29 @@ img {
   margin: ;
 }
 
-.centerimages {
+.imagetopleft {
+  border: solid 10px rgb(236, 14, 14);
+}
+
+.imagetopright {
+  border: solid 10px rgb(236, 14, 14);
+}
+
+.imagebottomleft {
+  border: solid 10px rgb(236, 14, 14);
+}
+
+.imagebottomright {
+  border: solid 10px rgb(236, 14, 14);
+}
+
+.textonimages {
+}
+
+h2 span {
+  background-color: green;
+}
+
+a span {
+  background-color: green;
 }
