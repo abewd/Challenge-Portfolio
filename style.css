@@ -61,9 +61,11 @@ img {
 .aboutmeparagraph {
   text-align: left;
   display: flex;
+  flex-direction: column;
   border-left: 5px solid blue;
   margin: 40px;
   padding: 10px;
+  align-items: flex-start;
 }
 
 .aboutmefontsize {
@@ -95,8 +97,6 @@ img {
   flex-wrap: wrap;
   display: flex;
   margin: 50px;
-  justify-content: center;
-  align-items: center;
 }
 
 .workcontentblock1 img {
